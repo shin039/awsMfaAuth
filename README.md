@@ -9,9 +9,9 @@ linux, mac版は各自でjqコマンドをインストールして使えるよ�
 
 ### awsmfa.cmd
 下記3点に適当な値を設定する。<br>
-mfa_serial=MFA認証に使用するMFAデバイスのARN<br>
-profile=MFA認証用のプロファイル名<br>
-awscli_args=MFA認証を行うawsコマンド実行時に指定する引数があれば指定する<br>
+- mfa_serial=MFA認証に使用するMFAデバイスのARN<br>
+- profile=MFA認証用のプロファイル名<br>
+- awscli_args=MFA認証を行うawsコマンド実行時に指定する引数があれば指定する<br>
 
 (例) <br>
 set mfa_serial=arn:aws:iam::999999999999:mfa/username<br>
