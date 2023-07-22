@@ -1,0 +1,4 @@
+[default]
+aws_access_key_id = <Your Aws Access Key ID>
+aws_secret_access_key = <Your Aws Secret Access Key>
+
