@@ -1,5 +1,10 @@
 # awsMfaAuth
 
+## 事前準備
+jqコマンドを使います。<br>
+windows版にはバイナリを入れてあります。<br>
+linux, mac版は各自でjqコマンドをインストールして使えるようにしてください。<br>
+
 ## 設定
 
 ### awsmfa.cmd
@@ -23,7 +28,11 @@ mfa認証で取得する情報と結合するcredentialsファイル<br>
 aws_access_key_id = A0DUMMY0KEYID0DAYO<br>
 aws_secret_access_key = dummyN05ecret4ccessK3y<br>
 
-## 事前準備
-jqコマンドを使います。<br>
-windows版にはバイナリを入れてあります。<br>
-linux, mac版は各自でjqコマンドをインストールして使えるようにしてください。<br>
+## 使い方
+```bash
+# Linux, Mac
+$ ./awsmfa.sh トークンコード
+
+# Windows
+> awsmfa トークンコード
+```
