@@ -4,7 +4,7 @@ aws コマンド実行時のprofile設定のために、mfa認証を反映した
 configファイルは別途、各自で用意して下さい。<br>
 <br>
 本実行ファイルでは、base_credentialsディレクトリ配下にmfa認証したcredentialsを含むファイルを生成した後、<br>
-base_credentialsディレクトリ配下のファイルを結合して新しくcredentialsファイルを生成して~/.aws配下に配置します。<br>
+base_credentialsディレクトリ配下にあるすべてのファイルを結合して新しくcredentialsファイルを生成して~/.aws配下に配置します。<br>
 
 ## 事前準備
 jqコマンドを使います。<br>
