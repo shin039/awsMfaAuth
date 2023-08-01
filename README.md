@@ -1,6 +1,6 @@
 # awsMfaAuth
 
-aws コマンド実行時のprofile設定のために、mfa認証を反映したcredentialsファイルを自動生成します。<br>
+mfa認証して取得した一時的セキュリティ認証情報を反映したcredentialsファイルを自動生成し~/.aws/credentialsに配置します。<br>
 configファイルは別途、各自で用意して下さい。<br>
 <br>
 本実行ファイルでは、base_credentialsディレクトリ配下にmfa認証したcredentialsを含むファイルを生成した後、<br>
