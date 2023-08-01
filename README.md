@@ -21,13 +21,13 @@ linux, mac版は各自でjqコマンドをインストールして使えるよ�
 
 (例) <br>
 set mfa_serial=arn:aws:iam::999999999999:mfa/username<br>
-set profile=mfa<br>
-set awscli_args=--profile formfa<br>
+set profile=mfa　※mfa認証した後に使用するプロファイル名を設定する<br>
+set awscli_args=--profile profile_name    ※mfa認証(aws sts get-session-token実行)のためにプロファイルなどの指定があれば設定。<br>
 
 
 ### base_credentials
 mfa認証で取得する情報と結合するcredentialsファイル<br>
-配下のファイルを全て結合する<br>
+配下のファイルを全て結合して新しいcredentialsファイルを生成する<br>
 
 (例: base_credentials/default)<br>
 [default]<br>
