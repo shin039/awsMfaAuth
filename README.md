@@ -1,5 +1,11 @@
 # awsMfaAuth
 
+aws コマンド実行時のprofile設定で、mfa認証を反映したcredentialsファイルを自動生成します。<br>
+configファイルは別途用意して下さい。<br>
+<br>
+本実行ファイルでは、base_credentialsディレクトリ配下にmfa認証したcredentialsを含むファイルを生成した後、<br>
+base_credentialsディレクトリ配下のファイルを結合して新しくcredentialsファイルを生成して~/.aws配下に配置します。<br>
+
 ## 事前準備
 jqコマンドを使います。<br>
 windows版にはバイナリを入れてあります。<br>
